@@ -31,7 +31,7 @@ public class Main {
         List<User> users = userService.getAllUsers();
         users.forEach(System.out::println);
         userService.removeUserById(2);
-        userService.cleanUsersTable();
-        userService.dropUsersTable();
+        //userService.cleanUsersTable();
+        //userService.dropUsersTable();
     }
 }
